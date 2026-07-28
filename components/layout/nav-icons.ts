@@ -1,0 +1,30 @@
+import {
+  LayoutDashboard,
+  ChartNoAxesColumn,
+  Calendar,
+  Package,
+  LocateFixed,
+  Warehouse,
+  Truck,
+  IdCard,
+  FileText,
+  MessageSquare,
+  Bell,
+  Settings,
+  type LucideIcon,
+} from "lucide-react";
+
+export const NAV_ICON_MAP: Record<string, LucideIcon> = {
+  LayoutDashboard,
+  ChartNoAxesColumn,
+  Calendar,
+  Package,
+  LocateFixed,
+  Warehouse,
+  Truck,
+  IdCard,
+  FileText,
+  MessageSquare,
+  Bell,
+  Settings,
+};
