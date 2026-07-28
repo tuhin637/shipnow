@@ -5,7 +5,7 @@ Limited Frontend Developer Intern assignment, built from the provided Figma
 design.
 
 - **Live demo:*https://shipnow-pearl.vercel.app/* 
-- **GitHub repo:** _ADD YOUR REPO URL HERE_
+- **GitHub repo:*https://github.com/tuhin637/shipnow*
 
 ---
 
