@@ -4,7 +4,7 @@ Implementation of the **ShipNow** logistics dashboard for the Trends Bird
 Limited Frontend Developer Intern assignment, built from the provided Figma
 design.
 
-- **Live demo:** _ADD YOUR DEPLOYED URL HERE (Vercel/Netlify)_
+- **Live demo:*https://shipnow-pearl.vercel.app/* 
 - **GitHub repo:** _ADD YOUR REPO URL HERE_
 
 ---
