@@ -24,7 +24,7 @@ export function PackageDetailsCard({
         required
       />
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 tablet:grid-cols-2">
         <QuantityField label="Quantity" value={values.quantity} onChange={(v) => onChange("quantity", v)} />
         <TextField
           label="Value"
@@ -35,7 +35,7 @@ export function PackageDetailsCard({
         />
       </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 gap-4 tablet:grid-cols-2">
         <TextField
           label="Weight"
           inputMode="decimal"
@@ -54,7 +54,7 @@ export function PackageDetailsCard({
 
       <div>
         <p className="mb-1.5 text-xs font-medium text-ink-500">Dimensions</p>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4 tablet:grid-cols-3">
           <DimensionField label="Length" value={values.length} onChange={(v) => onChange("length", v)} />
           <DimensionField label="Width" value={values.width} onChange={(v) => onChange("width", v)} />
           <DimensionField label="Height" placeholder="ex. 20" value={values.height} onChange={(v) => onChange("height", v)} />
