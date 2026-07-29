@@ -70,21 +70,22 @@ export const SHIPMENT_TYPE_DATA: ShipmentTypeSlice[] = [
 export const SHIPMENT_TYPE_LEGEND_ORDER = ["Road Freight", "Ocean Freight", "Air Freight", "Rail Freight"];
 
 // ---------------------------------------------------------------------------
-// Shipment Statistic (step chart)
+// Shipment Statistic (gradient bar chart)
 // ---------------------------------------------------------------------------
 export const SHIPMENT_STATISTIC = {
   total: "4,352",
-  deltaLabel: "+48.7%",
+  deltaLabel: "+8.7%",
   range: "Last Year",
   highlight: { month: "May", value: 3124, yearLabel: "May 2030" },
+  yMax: 4800,
   data: [
-    { month: "Jan", value: 1800 },
-    { month: "Feb", value: 2100 },
-    { month: "Mar", value: 1950 },
-    { month: "Apr", value: 2600 },
+    { month: "Jan", value: 1300 },
+    { month: "Feb", value: 1900 },
+    { month: "Mar", value: 1050 },
+    { month: "Apr", value: 1700 },
     { month: "May", value: 3124 },
-    { month: "Jun", value: 3400 },
-    { month: "Jul", value: 3050 },
+    { month: "Jun", value: 2600 },
+    { month: "Jul", value: 3600 },
     { month: "Aug", value: 4352 },
   ],
 };
