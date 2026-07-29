@@ -156,14 +156,7 @@ Not the focus of this assignment, but implemented per §3.4:
   doesn't ship brand/logo icons (Facebook, X, Instagram, LinkedIn), so
   these are small inline SVGs in `components/layout/Footer.tsx` instead.
 
----
 
-## Before submitting — checklist
 
-- [ ] Push to GitHub with incremental, descriptive commits (not a single
-      commit) and paste the repo URL at the top of this file
-- [ ] Deploy to Vercel/Netlify, test the link in a private/incognito
-      window, and paste it at the top of this file
-- [ ] Re-check colors/spacing/typography against Figma Dev Mode
-- [ ] Confirm password validation rule matches the Figma copy
+dation rule matches the Figma copy
 - [ ] Fill in the submission form with both links
