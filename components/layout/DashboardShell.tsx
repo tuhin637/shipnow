@@ -19,7 +19,7 @@ export function DashboardShell({ children }: { children: ReactNode }) {
         Skip to main content
       </a>
       <Sidebar />
-      <div className="flex min-h-dvh flex-1 flex-col">
+      <div className="flex min-h-dvh min-w-0 flex-1 flex-col">
         <MobileTopBar />
         <main
           id="main-content"
