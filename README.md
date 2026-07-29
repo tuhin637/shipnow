@@ -156,7 +156,3 @@ Not the focus of this assignment, but implemented per §3.4:
   doesn't ship brand/logo icons (Facebook, X, Instagram, LinkedIn), so
   these are small inline SVGs in `components/layout/Footer.tsx` instead.
 
-
-
-dation rule matches the Figma copy
-- [ ] Fill in the submission form with both links
