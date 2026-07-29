@@ -36,7 +36,7 @@ export function WarehouseHeader({
       <div
         role="tablist"
         aria-label="Freight type"
-        className="no-scrollbar flex items-center gap-1 overflow-x-auto rounded-[10px] border border-ink-200 bg-white p-1"
+        className="no-scrollbar flex w-full min-w-0 items-center gap-1 overflow-x-auto rounded-[10px] border border-ink-200 bg-white p-1 tablet:w-auto"
       >
         {FREIGHT_TABS.map((type) => {
           const Icon = FREIGHT_ICONS[type];
