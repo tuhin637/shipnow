@@ -5,7 +5,7 @@ const ICONS: Record<string, LucideIcon> = { ShieldCheck, FileX2, CircleDashed, C
 
 export function InvoiceStats() {
   return (
-    <div className="grid grid-cols-2 gap-4 desktop:grid-cols-4">
+    <div className="grid grid-cols-1 gap-4 tablet:grid-cols-2 desktop:grid-cols-4">
       {INVOICE_STATS.map((s) => {
         const Icon = ICONS[s.icon];
         return (
